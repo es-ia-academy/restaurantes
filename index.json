@@ -9,6 +9,8 @@
     display:grid;
     background:red;
     min-height:100vh;
+    padding:35px;
+    max-width:1350px;
 }</style><grid-body id="grid-body">
   <section id="UyrGRLc" data-type="section">
       

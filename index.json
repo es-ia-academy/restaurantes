@@ -24,7 +24,7 @@ grid-body{
 }
 
 grid-box#htLWdIt {
-  background:red;
+  background:black;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(auto, 200px));
   grid-auto-rows: auto;

@@ -17,87 +17,99 @@
   <body>
   <grid-page id="grid" class="grid-page" data-type="body">
   
-  <style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px){
-    
-    grid-body{
-        display:grid;
-        background:red;
-        padding:15px;
-    }
-}</style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-laptop.css" type="text/css" data-type="css" data-size="laptop" data-content="page"></style><grid-body id="grid-body">
-  <section id="UyrGRLc" data-type="section">
-      
-      <!--CSS-->
-      <style id="nJGIOvl" type="text/css" data-type="css" data-size="laptop" data-content="section">
-  grid-container#pOLXNoP {
-    position: relative;
+  <style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px) {
+  grid-body {
+    padding: 5px;
   }
-  grid-box#htLWdIt{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(auto, 200px));
-    grid-auto-rows: auto;
-    gap: 10px;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    place-content:center;
-  }
-  bg-color#hnDKLdQ{
-    background:inherit;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-  }
-  grid-box#htLWdIt grid-item {
-    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);
-    border-radius: 10px;
-    overflow: hidden;
-    background:#21292d;
-  }
-  grid-box#htLWdIt item-body {
-    padding: 15px;
-    display: grid;
-    gap: 10px;
-  }
+}
+</style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-laptop.css" type="text/css" data-type="css" data-size="laptop" data-content="page">grid-page {
+  background: blue;
+  display: block;
+}
 
-  grid-box#htLWdIt grid-title {
-    font-size:1.5rem;
-    color:white;
-  }
+grid-body {
+  display: grid;
+  min-height: 100vh;
+  padding: 35px;
+  max-width: 1350px;
+  margin: 0 auto;
+  gap: 35px;
+}
+</style><grid-body id="grid-body"><section id="UyrGRLc" data-type="section"><!--CSS--><style id="nJGIOvl" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#pOLXNoP {
+  position: relative;
+}
 
-  grid-box#htLWdIt grid-desc {
-    font-size: 12px;
-    color: #929292;
-  }
+grid-box#htLWdIt {
+  background: black;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 200px));
+  grid-auto-rows: auto;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  place-content: center;
+}
 
-  grid-box#htLWdIt item-title {
-    color: white;
-  }
+bg-color#hnDKLdQ {
+  background: inherit;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
 
-  grid-box#htLWdIt item-desc {
-    display: grid;
-    font-size: 12px;
-    color: #929292;
-  }
-  grid-head#XNPXONc{
-    grid-column: 1 / -1;
-    display: grid;
-    margin-left: 15px;
-  }
-  grid-box#htLWdIt item-head img{
-    background-color:black;
-    height:200px;
-    width:100%;
-    object-fit:cover;
-  }
-  </style>
-      <style id="csPFDgr" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){
+grid-box#htLWdIt grid-item {
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #21292d;
+}
+
+grid-box#htLWdIt item-body {
+  padding: 15px;
+  display: grid;
+  gap: 10px;
+}
+
+grid-box#htLWdIt grid-title {
+  font-size: 1.5rem;
+  color: white;
+}
+
+grid-box#htLWdIt grid-desc {
+  font-size: 12px;
+  color: #929292;
+}
+
+grid-box#htLWdIt item-title {
+  color: white;
+}
+
+grid-box#htLWdIt item-desc {
+  display: grid;
+  font-size: 12px;
+  color: #929292;
+}
+
+grid-head#XNPXONc {
+  grid-column: 1 / -1;
+  display: grid;
+  margin-left: 15px;
+}
+
+grid-box#htLWdIt item-head img {
+  background-color: black;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+</style><style id="csPFDgr" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){
   grid-box#htLWdIt {
     display: grid;
   }
-  }</style>
-      <style id="GdJtMaZ" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
+  }</style><style id="GdJtMaZ" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
   grid-head#XNPXONc{
     grid-column: 1 / -1;
     display: grid;
@@ -110,66 +122,94 @@
       padding:0;
       grid-template-columns: 1fr 1fr;
   }
-  }</style>
-      
-      <!--HTML-->
-      <div id="AwOvehl" data-type="html">
-        <grid-container id="mclFXAh">
-          <grid-bg id="HrVtSYO">
-            <bg-color id="hnDKLdQ"></bg-color>
-          </grid-bg>
-          <grid-box id="htLWdIt">
-            <grid-head id="XNPXONc">
-              <grid-title id="kHIqrNk">Lorem ipsum</grid-title>
-              <grid-desc id="EjBMWpp">Lorem ipsum dolor sit amet</grid-desc>
-            </grid-head>
-            <grid-item id="YzWvHGD">
-        <item-head id="fMPTqzR">
-          <img id="GtlqXgg" src="https://images.unsplash.com/photo-1587206667979-708ab47b5adc?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwxN3x8ZGFyayUyMGZvb2R8ZW58MHwwfHx8MTcxNTY5MDU3OHww&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy">
-        </item-head>
-        <item-body id="jTmNfKt">
-          <item-title id="NPwxloj">Lorem ipsum</item-title>
-          <item-desc id="rzhebDg">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-        </item-body>
-        
-      </grid-item><grid-item id="EbHrDTq">
-        <item-head id="lbWMNuW">
-          <img id="RISNqES" src="https://images.unsplash.com/photo-1517936401693-1dbb51e467c5?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwxMHx8ZGFyayUyMGZvb2R8ZW58MHwwfHx8MTcxNTY5MDU3OHww&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy">
-        </item-head>
-        <item-body id="FyTRckK">
-          <item-title id="htXgdSs">Lorem ipsum</item-title>
-          <item-desc id="Rwnrjgj">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-        </item-body>
-        
-      </grid-item><grid-item id="kAPGyFO">
-        <item-head id="FGGXqnc">
-          <img id="AhpFABK" src="https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHw3fHxmb29kfGVufDB8MHx8fDE3MTU2ODk4MjJ8MA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy">
-        </item-head>
-        <item-body id="KnKqQhC">
-          <item-title id="oizPjUN">Lorem ipsum</item-title>
-          <item-desc id="QTTBXiK">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-        </item-body>
-        
-      </grid-item><grid-item id="jqzMSrH">
-        <item-head id="TDDcusE">
-          <img id="GpttTfj" src="https://images.unsplash.com/photo-1550807014-1236e91b92d4?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwzfHxkYXJrJTIwZm9vZHxlbnwwfDB8fHwxNzE1NjkwNTc4fDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy">
-        </item-head>
-        <item-body id="dEZOZeE">
-          <item-title id="gfHGVLF">Lorem ipsum</item-title>
-          <item-desc id="xmxOAHR">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-        </item-body>
-        
-      </grid-item>
-          </grid-box>
-        </grid-container>
-      </div>
-      
-      <!--JS-->
-      <script id="lQJhqEE" data-type="js"></script>
-      <!--EDIT-->
-      
-  </section>
-  </grid-body><script id="page-global.js" type="text/javascript" data-type="js" data-size="global" data-content="page"></script>
+  }</style><!--HTML--><div id="AwOvehl" data-type="html"><grid-container id="mclFXAh"><grid-bg id="HrVtSYO"><bg-color id="hnDKLdQ"></bg-color></grid-bg><grid-box id="htLWdIt"><grid-head id="XNPXONc"><grid-title id="kHIqrNk">Hamburguesas</grid-title><grid-desc id="EjBMWpp">Deliciosas hamburguesas tradicionales</grid-desc></grid-head><grid-item id="YzWvHGD"><item-head id="fMPTqzR"><img id="GtlqXgg" src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwxMnx8YnVyZ2Vyc3xlbnwwfDB8fHwxNzE1Njk1NDA5fDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy"></item-head><item-body id="jTmNfKt"><item-title id="NPwxloj">Lorem ipsum</item-title><item-desc id="rzhebDg">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc></item-body></grid-item><grid-item id="EbHrDTq"><item-head id="lbWMNuW"><img id="RISNqES" src="https://images.unsplash.com/photo-1610970878459-a0e464d7592b?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHw2fHxidXJnZXJzfGVufDB8MHx8fDE3MTU2OTU0MDl8MA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy"></item-head><item-body id="FyTRckK"><item-title id="htXgdSs">Lorem ipsum</item-title><item-desc id="Rwnrjgj">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc></item-body></grid-item><grid-item id="kAPGyFO"><item-head id="FGGXqnc"><img id="AhpFABK" src="https://images.unsplash.com/photo-1625683257212-116d74981941?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwzMnx8YnVyZ2Vyc3xlbnwwfDB8fHwxNzE1Njk1NDg5fDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy"></item-head><item-body id="KnKqQhC"><item-title id="oizPjUN">Lorem ipsum</item-title><item-desc id="QTTBXiK">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc></item-body></grid-item><grid-item id="jqzMSrH"><item-head id="TDDcusE"><img id="GpttTfj" src="https://images.unsplash.com/photo-1585730315692-5252e57d4b40?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHw1fHxidXJnZXJzfGVufDB8MHx8fDE3MTU2OTU0MDl8MA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy"></item-head><item-body id="dEZOZeE"><item-title id="gfHGVLF">Lorem ipsum</item-title><item-desc id="xmxOAHR">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc></item-body></grid-item></grid-box></grid-container></div><!--JS--><script id="lQJhqEE" data-type="js"></script><!--EDIT--></section><section id="jBqbhCn" data-type="section"><!--CSS--><style id="xyWpOwx" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#pOLXNoP {
+  position: relative;
+}
+
+grid-box#JCuHikN {
+  background: black;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 200px));
+  grid-auto-rows: auto;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  place-content: center;
+}
+
+bg-color#LOArHuH {
+  background: inherit;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+grid-box#JCuHikN grid-item {
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #21292d;
+}
+
+grid-box#JCuHikN item-body {
+  padding: 15px;
+  display: grid;
+  gap: 10px;
+}
+
+grid-box#JCuHikN grid-title {
+  font-size: 1.5rem;
+  color: white;
+}
+
+grid-box#JCuHikN grid-desc {
+  font-size: 12px;
+  color: #929292;
+}
+
+grid-box#JCuHikN item-title {
+  color: white;
+}
+
+grid-box#JCuHikN item-desc {
+  display: grid;
+  font-size: 12px;
+  color: #929292;
+}
+
+grid-head#JLcBERn {
+  grid-column: 1 / -1;
+  display: grid;
+  margin-left: 15px;
+}
+
+grid-box#JCuHikN item-head img {
+  background-color: black;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+</style><style id="WkBdAtD" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){
+  grid-box#htLWdIt {
+    display: grid;
+  }
+  }</style><style id="IzTWCOy" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
+  grid-head#XNPXONc{
+    grid-column: 1 / -1;
+    display: grid;
+    place-content:center;
+    text-align:center;
+  }
+  grid-box#htLWdIt {
+      display: grid;
+      gap:5px;
+      padding:0;
+      grid-template-columns: 1fr 1fr;
+  }
+  }</style><!--HTML--><div id="JSUEStL" data-type="html"><grid-container id="zjequjS"><grid-bg id="iQqWbFK"><bg-color id="LOArHuH"></bg-color></grid-bg><grid-box id="JCuHikN"><grid-head id="JLcBERn"><grid-title id="EKkMGJW">Hamburguesas</grid-title><grid-desc id="zqRZdxq">Deliciosas hamburguesas tradicionales</grid-desc></grid-head><grid-item id="rNfNgzf"><item-head id="jpRQAwU"><img id="vyDPlbE" src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwxMnx8YnVyZ2Vyc3xlbnwwfDB8fHwxNzE1Njk1NDA5fDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy"></item-head><item-body id="TbSeJzW"><item-title id="aWdBhbO">Lorem ipsum</item-title><item-desc id="JirHJbK">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc></item-body></grid-item><grid-item id="uvnCgAG"><item-head id="wNMNBIB"><img id="gpRitKF" src="https://images.unsplash.com/photo-1610970878459-a0e464d7592b?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHw2fHxidXJnZXJzfGVufDB8MHx8fDE3MTU2OTU0MDl8MA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy"></item-head><item-body id="iZCXbvq"><item-title id="ytusIEo">Lorem ipsum</item-title><item-desc id="lswvIVX">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc></item-body></grid-item><grid-item id="TockNjC"><item-head id="cilWwkY"><img id="GYxGmdd" src="https://images.unsplash.com/photo-1625683257212-116d74981941?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwzMnx8YnVyZ2Vyc3xlbnwwfDB8fHwxNzE1Njk1NDg5fDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy"></item-head><item-body id="dLVQeZL"><item-title id="gzNPtEV">Lorem ipsum</item-title><item-desc id="UlNZMBs">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc></item-body></grid-item><grid-item id="nyeRAJx"><item-head id="ZPDFXmB"><img id="zEELycN" src="https://images.unsplash.com/photo-1585730315692-5252e57d4b40?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHw1fHxidXJnZXJzfGVufDB8MHx8fDE3MTU2OTU0MDl8MA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy"></item-head><item-body id="SXSXhQY"><item-title id="HSiSsiy">Lorem ipsum</item-title><item-desc id="rXnwSLY">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc></item-body></grid-item></grid-box></grid-container></div><!--JS--><script id="IENeReA" data-type="js"></script><!--EDIT--></section></grid-body><script id="page-global.js" type="text/javascript" data-type="js" data-size="global" data-content="page"></script>
   </grid-page>
   </body>
   <!-- Footer -->

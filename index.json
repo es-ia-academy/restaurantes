@@ -2,6 +2,7 @@
   grid-body {
     display: grid;
     padding: 5px;
+    gap: 5px;
   }
 
   grid-box {

@@ -21,7 +21,7 @@ section {
   position: relative;
   height: fit-content;
   z-index: 0;
-  border-radius:10px;
+  border-radius: 10px;
 }
 </style><grid-body id="grid-body"><section id="XDTlYCt" data-type="section"><!--CSS--><style id="IjGTcDT" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#EsfcaiL {
   position: relative;

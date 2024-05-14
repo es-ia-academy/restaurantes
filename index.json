@@ -9,7 +9,8 @@
     padding: 10px;
   }
 }
-</style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-laptop.css" type="text/css" data-type="css" data-size="laptop" data-content="page">grid-page {
+</style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-laptop.css" type="text/css" data-type="css" data-size="laptop" data-content="page">body,
+grid-page {
   background: blue;
   display: block;
 }

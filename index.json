@@ -1,5 +1,6 @@
 <style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px) {
   grid-body {
+    display: grid;
     padding: 5px;
   }
 
